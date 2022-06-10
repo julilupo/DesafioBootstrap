@@ -45,20 +45,24 @@
             </div>
         </nav>       
     </header>
-    <main class="mainContact">
-        <div class="textContact">
-            <h2>¡En Fenrir te queremos escuchar!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laudantium iste. Doloremque, ipsa? Cum explicabo enim natus unde optio porro nisi, repudiandae temporibus placeat similique totam pariatur! Exercitationem ipsum ratione tempore culpa delectus error in, consectetur temporibus, quam necessitatibus alias distinctio quasi eveniet cum suscipit praesentium, beatae non rem nihil.</p>             
+    <main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex flex-column justify-content-evenly align-items-center">
+                <h2>¡En Fenrir te queremos escuchar!</h2>
+                <p class="textContact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, laudantium iste. Doloremque, ipsa? Cum explicabo enim natus unde optio porro nisi, repudiandae temporibus placeat similique totam pariatur! Exercitationem ipsum ratione tempore culpa delectus error in, consectetur temporibus, quam necessitatibus alias distinctio quasi eveniet cum suscipit praesentium, beatae non rem nihil.</p>
+            </div>
+            <div class="formContact col-md-6">
+                <form action="" method="get" enctype="text/plain">
+                    <input type="text" name= "nombre" placeholder= "Ingresa tu nombre" class="campo" autocomplete="off" autofocus required>
+                    <input type="email" name="email" placeholder="Ingresa tu correo electrónico" autocomplete="off" class="campo" required>
+                    <textarea name="mensaje" placeholder="Dejanos tu mensaje" cols="30" rows="10"></textarea>
+                    <input type="submit" name="enviar" value="Enviar Mensaje" class="btnEnviar">               
+                </form>
+            </div>
         </div>
-        <div class="formContact">
-            <form action="" method="get" enctype="text/plain">
-                <input type="text" name= "nombre" placeholder= "Ingresa tu nombre" class="campo" autocomplete="off" autofocus required>
-                <input type="email" name="email" placeholder="Ingresa tu correo electrónico" autocomplete="off" class="campo" required>
-                <textarea name="mensaje" placeholder="Dejanos tu mensaje" cols="30" rows="10"></textarea>
-                <input type="submit" name="enviar" value="Enviar Mensaje" class="btnEnviar">               
-            </form>
-        </div>
-    </main>
+    </div>
+    </main>    
     <footer>
         <ul class="pieDePagina">
             <li class="redes"><a href="">Instagram</a></li>
