@@ -14,16 +14,15 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                        <a href="#"><img class="logo img-fluid" src="./Img/—Pngtree—wolf head icon logo vector_5061887.png" alt="Logo Fenrir"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <div class="container">
+                <a href="#"><img class="logo img-fluid" src="./Img/—Pngtree—wolf head icon logo vector_5061887.png" alt="Logo Fenrir"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center fs-5" id="navbarNavDropdown">
                     <ul class="navbar-nav align-items-center">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tienda</a>
+                        <li class="nav-item dropdown ms-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="./Paginas/Tienda.html">Camisas/Remeras</a></li>
                             <li><a class="dropdown-item" href="./Paginas/Tienda.html">Abrigo</a></li>
@@ -31,13 +30,13 @@
                             <li><a class="dropdown-item" href="./Paginas/Tienda.html">Accesorios</a></li>
                         </ul>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-5">
                             <a class="nav-link" href="./Paginas/Nosotros.html">Nosotros</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-5">
                             <a class="nav-link" href="./Paginas/Contacto.html">Contacto</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ms-5">
                             <a class="nav-link active" aria-current="page" href="./Paginas/FAQ.html">FAQ</a>
                         </li>
                     </ul>
@@ -45,15 +44,18 @@
             </div>
         </nav>       
     </header>
-    <main class="portada">
-            <h1 class="marca">Fenrir</h1>
-            <p class="textoPortada">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates non explicabo doloremque ex perferendis commodi ipsa, dolorem nulla magnam ratione enim nam saepe, doloribus pariatur assumenda cumque soluta atque ullam aliquam aut delectus veritatis. Vel autem aut sunt nobis quam ab esse, cumque delectus eveniet quasi fugit, placeat dolores cupiditate!</p>
-            <img class="imgPortada" src="./Img/Portada.jpg" alt="Modelos con ropa de la marca">
-            <a href="../DesafioGitHub/Paginas/Tienda.html"><button class="boton">SHOP NOW</button></a>
-    </main>    
-    <div class="portadaWave">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#a9a9a9" fill-opacity="1" d="M0,256L34.3,240C68.6,224,137,192,206,170.7C274.3,149,343,139,411,149.3C480,160,549,192,617,197.3C685.7,203,754,181,823,181.3C891.4,181,960,203,1029,224C1097.1,245,1166,267,1234,272C1302.9,277,1371,267,1406,261.3L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
-    </div>
+    <main class="container mt-5 d-flex">
+        <section class="row d-flex">
+            <div class="col-md-6 d-flex flex-column justify-content-evenly align-items-center">
+                <h1 class="marca">Fenrir</h1>
+                <p class="text-center fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates non explicabo doloremque ex perferendis commodi ipsa, dolorem nulla magnam ratione enim nam saepe, doloribus pariatur assumenda cumque soluta atque ullam aliquam aut delectus veritatis. Vel autem aut sunt nobis quam ab esse, cumque delectus eveniet quasi fugit, placeat dolores cupiditate!</p>
+                <a class="btn btn-outline-dark btn-lg" href="./Paginas/Tienda.html" role="button">SHOP NOW</a>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                <img class="imgPortada" src="./Img/Portada.jpg" alt="Modelos con ropa de la marca">
+            </div>            
+        </section>
+    </main>
     <footer>
         <ul class="pieDePagina">
             <li class="redes"><a href="">Instagram</a></li>

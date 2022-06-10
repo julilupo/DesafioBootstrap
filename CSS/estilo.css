@@ -700,6 +700,51 @@ footer{
 
 }
 */
+
 .logo{
     width: 6rem;
+}
+
+.imgPortada{
+    border: solid black 1px;
+}
+
+.marca{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 3.75rem;
+    font-weight: 400; 
+}
+
+.redes{    
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #212529;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.pieDePagina{
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+}
+
+.redes{
+    list-style-type: none;
+    margin: 0 2rem;
+}
+
+.redes a{    
+    text-decoration: none;
+    color:#707175;
 }
